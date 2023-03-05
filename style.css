@@ -1,12 +1,27 @@
 body {
   background-color: black;
+  text-align: center;
 }
 
 h1{
   color:white;
 }
 
+nav{
+  background-color: #00ffc3;
+  color:#00ffc3;  
+  text-align: center;
+}
+a{
+  color:#000000
+}
+
+a.hover{
+background-color: white;
+}
+
 button {
+  align-items:center ;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 12px 24px;
@@ -18,9 +33,11 @@ button {
   justify-content: center;
   margin-top: 20px;
 }
+
 button:hover {
   background-color: #00ffc3;
 }
+
 #output {
   color: rgb(255, 0, 0);
   margin-top: 20px;
@@ -29,4 +46,3 @@ button:hover {
   border-radius: 4px;
   font-size: 16px;
 }
-
