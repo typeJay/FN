@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+}
+
+h1{
+  color:white;
+}
+
+button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #00ffc3;
+}
+#output {
+  color: rgb(255, 0, 0);
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
