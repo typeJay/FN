@@ -123,16 +123,6 @@ button {
 }
 
 
-/* JS */
-#output {
-  color: cyan;
-  margin: 20px auto 20px auto;
-  padding: 10px;
-  border: 1px solid cyan;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
