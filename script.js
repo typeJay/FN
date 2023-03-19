@@ -6,6 +6,12 @@ const hashtags = {
   FERRARI: ["values4", "values5", "values6"],
   MERCEDES: ["values7", "values8", "values9"],
   ALPINE: ["values10", "values11", "values12"],
+  MCLAREN: ["values10", "values11", "values12"],
+  "ALFA ROMEO": ["values10", "values11", "values12"],
+  "ASTON MARTIN": ["values10", "values11", "values12"],
+  HAAS: ["values10", "values11", "values12"],
+  ALPHATAURI: ["values10", "values11", "values12"],
+  WILLIAMS: "values10 values11 values12",
 };
 
 buttons.forEach((button) =>
