@@ -119,10 +119,8 @@ button {
 }
 .williams-btn:hover {
   background-color: #37BEDD;
+  animation-duration: 2s;
 }
-
-
-
 
 
 /* JS */
