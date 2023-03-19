@@ -1,18 +1,21 @@
 body {
   background-color: black;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2{
   color:white;
   text-align: left;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand{
+  font-style: italic;
 }
 
 /* Footer */
-
-.footer-links{
-  margin-top: 20px;
-}
 
 /* Glass buttons */
 button {
@@ -125,9 +128,9 @@ button {
 /* JS */
 #output {
   color: cyan;
-  margin-top: 20px;
+  margin: 20px auto 20px auto;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid cyan;
   border-radius: 4px;
   font-size: 16px;
 }
