@@ -1,5 +1,3 @@
-// Clipboard Code Start
-
 const copyButton1 = document.getElementById("copyButton1");
 const copyButton2 = document.getElementById("copyButton2");
 const copyButton3 = document.getElementById("copyButton3");
@@ -61,38 +59,3 @@ const output = document.getElementById("output");
         navigator.clipboard.writeText("Text 10");
         output.innerText = "Text 10 copied to clipboard";
     });
-
-
-// Clipboard Code End
-
-
-
-// Event listeners
-// repeat for up to 10 buttons
-
-function setupCopyButton(buttonId) {
-  const copyButton = document.getElementById(buttonId);
-
-  copyButton.addEventListener("mouseenter", function() {
-    copyButton.textContent = "Click to copy";
-  });
-
-  copyButton.addEventListener("mouseleave", function() {
-    copyButton.textContent = "WILLIAMS " + buttonId.slice(-1);
-  });
-
-  copyButton.addEventListener("click", function() {
-    const textToCopy = "Text to copy"; // Replace with the actual text you want to copy
-    navigator.clipboard.writeText(textToCopy).then(function() {
-      copyButton.textContent = "Text copied";
-    });
-  });
-}
-
-  // Call the setupCopyButton function for each button
-  setupCopyButton("copyButton1");
-  setupCopyButton("copyButton2");
-  setupCopyButton("copyButton3");
-  // repeat for up to 10 buttons
-
-
