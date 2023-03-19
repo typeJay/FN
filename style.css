@@ -3,46 +3,145 @@ body {
   text-align: center;
 }
 
-h1{
+h2{
   color:white;
+  text-align: left;
 }
 
-nav{
-  background-color: #00ffc3;
-  color:#00ffc3;  
-  text-align: center;
-}
-a{
-  color:#000000
-}
+/* Footer */
 
-a.hover{
-background-color: white;
-}
-
-button {
-  align-items:center ;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-right: 10px;
-  display: flex;
-  justify-content: center;
+.footer-links{
   margin-top: 20px;
 }
 
-button:hover {
-  background-color: #00ffc3;
+/* Glass buttons */
+button {
+  display: inline-block;
+  padding: 24px 32px;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
+/* Team colors Start*/
+.col {
+  /* outline-style: solid; */
+  border-style: solid;
+  border-top-right-radius: 5em;
+  border-bottom: none;
+  border-left: none;
+}
+
+.redbull {
+  border-color: #3671C6;
+}
+
+.redbull-btn:hover {
+  background-color: #3671C6;
+}
+
+
+.ferrari {
+  border-color: #F91536;
+}
+.ferrari-btn:hover {
+  background-color: #F91536;
+}
+
+
+.mercedes {
+  border-color: #6CD3BF;
+}
+.mercedes-btn:hover {
+  background-color: #6CD3BF;
+}
+
+
+.alpine {
+  border-color: #2293D1;
+}
+.alpine-btn:hover {
+  background-color: #2293D1;
+}
+
+
+.mclaren {
+  border-color: #F58020;
+}
+.mclaren-btn:hover {
+  background-color: #F58020;
+}
+
+
+.alfa-romeo {
+  border-color: #C92D4B;
+}
+
+.alfa-romeo-btn:hover {
+  background-color: #C92D4B;
+}
+
+
+.aston-martin {
+  border-color: #358c75;
+}
+.aston-martin-btn:hover {
+  background-color: #358c75;
+}
+
+
+.haas {
+  border-color: #B6BABD;
+}
+.haas-btn:hover {
+  background-color: #B6BABD;
+}
+
+
+.alphatauri {
+  border-color: #5E8FAA;
+}
+.alphatauri-btn:hover {
+  background-color: #5E8FAA;
+}
+
+
+.williams {
+  border-color: #37BEDD;
+}
+.williams-btn:hover {
+  background-color: #37BEDD;
+}
+
+
+
+
+
+/* JS */
 #output {
-  color: rgb(255, 0, 0);
+  color: cyan;
   margin-top: 20px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(168, 54%, 20%);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(168, 54%, 50%);
 }
