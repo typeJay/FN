@@ -1,17 +1,17 @@
 body {
   background-color: black;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-h2{
-  color:white;
+h2 {
+  color: white;
   text-align: left;
   font-style: italic;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.navbar-brand{
+.navbar-brand {
   font-style: italic;
 }
 
@@ -22,10 +22,10 @@ button {
   display: inline-block;
   padding: 24px 32px;
   border-radius: 15px;
-  background-color: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 1em;
   letter-spacing: 2px;
   cursor: pointer;
@@ -41,54 +41,48 @@ button {
 }
 
 .redbull {
-  border-color: #3671C6;
+  border-color: #3671c6;
 }
 
 .redbull-btn:hover {
-  background-color: #3671C6;
+  background-color: #3671c6;
 }
-
 
 .ferrari {
-  border-color: #F91536;
+  border-color: #f91536;
 }
 .ferrari-btn:hover {
-  background-color: #F91536;
+  background-color: #f91536;
 }
-
 
 .mercedes {
-  border-color: #6CD3BF;
+  border-color: #6cd3bf;
 }
 .mercedes-btn:hover {
-  background-color: #6CD3BF;
+  background-color: #6cd3bf;
 }
-
 
 .alpine {
-  border-color: #2293D1;
+  border-color: #2293d1;
 }
 .alpine-btn:hover {
-  background-color: #2293D1;
+  background-color: #2293d1;
 }
-
 
 .mclaren {
-  border-color: #F58020;
+  border-color: #f58020;
 }
 .mclaren-btn:hover {
-  background-color: #F58020;
+  background-color: #f58020;
 }
 
-
 .alfa-romeo {
-  border-color: #C92D4B;
+  border-color: #c92d4b;
 }
 
 .alfa-romeo-btn:hover {
-  background-color: #C92D4B;
+  background-color: #c92d4b;
 }
-
 
 .aston-martin {
   border-color: #358c75;
@@ -97,31 +91,27 @@ button {
   background-color: #358c75;
 }
 
-
 .haas {
-  border-color: #B6BABD;
+  border-color: #b6babd;
 }
 .haas-btn:hover {
-  background-color: #B6BABD;
+  background-color: #b6babd;
 }
-
 
 .alphatauri {
-  border-color: #5E8FAA;
+  border-color: #5e8faa;
 }
 .alphatauri-btn:hover {
-  background-color: #5E8FAA;
+  background-color: #5e8faa;
 }
-
 
 .williams {
-  border-color: #37BEDD;
+  border-color: #37bedd;
 }
 .williams-btn:hover {
-  background-color: #37BEDD;
+  background-color: #37bedd;
   animation-duration: 2s;
 }
-
 
 /* Scrollbar */
 /* width */
